@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="./css/player.css">
+</head>
+<body>
+	<header></header>
+	<div class="content">
+		<div class="show">
+		<div class="top">
+			<p>白石溪</p>
+		</div>
+		<div class="video">
+			<video src="./video/白石溪.mp4"></video>
+			<img src="./images/logo.png" alt="">
+			<div class="voi_p">
+				<div class="voi_n"></div>
+				<div class="voi_t"></div>
+				<div class="voi_d"></div>
+				<div class="voi_ok">√</div>
+			</div>
+		</div>
+
+		<div class="send">
+			<form action="">
+				<input type="text" value="" placeholder="说点什么吧" id="danmu" autofocus onkeydown="if(event.keyCode==13)return false;">
+				<input type="color" class="color1">
+				<img src="./images/close.png" alt="" class="fr btn_close">
+				<img src="./images/send.png" alt="" class="fr btn_send">
+				
+			</form>
+			
+		</div>
+
+		<div class="cont">
+			<div class="start needstart fl"></div>
+			<div class="demo fl">
+				<div class="line"></div>
+				<div class="dot"></div>
+				<div class="dotted"></div>
+			</div>
+			<p class="fl time1">00:00</p>
+			<p class="fl">/</p>
+			<p class="fl time2">00:00</p>
+			<div class="voice needquiet fl"></div>
+			
+			<div class="istloop noloop fl"></div>
+			<div class="sendsay fl"></div>
+			<div class="istfull needfull fl"></div>
+			
+		</div>
+		</div>
+		<div class="intro">
+			<div class="int_left fl">
+				<p>
+					视频来自于bilibili<br>
+					白石溪 <br>
+					作曲:纯白p <br>
+					作词:果汁凉菜 <br>
+					翻唱:凑诗
+				</p>
+			</div>
+			<div class="int_right fl">
+				<p>简易web播放器</p>
+				<p>
+					可发弹幕,进度条可调戏,<br>
+					右方四个按钮依次是: <br>
+					调节声音,循环,发送弹幕,全屏
+					<br>
+					<br>
+					by:才进
+
+				</p>
+			</div>
+			<div class="clear"></div>
+
+				
+			</div>
+		</div>
+	</div>
+
+
+
+
+	<script src="./js/jquery-1.8.3.min.js"></script>
+	<script src="./js/player.js"></script>
+</body>
+</html>
